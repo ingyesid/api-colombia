@@ -1,0 +1,94 @@
+# Gradle specific files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+
+# IntelliJ IDEA and Android Studio specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.idea_modules/
+
+# MacOS specific files
+.DS_Store
+
+# Kotlin specific files
+*.kotlin_metadata
+*.kotlin_module
+.kotlin/
+
+# Java specific files
+*.class
+*.jar
+*.war
+*.ear
+*.rbc
+*.mf
+*.so
+*.dll
+*.exe
+*.dmg
+*.sublime-project
+*.sublime-workspace
+
+# Log files
+*.log
+
+# Android specific files
+*.keystore
+*/build/
+*/bin/
+*.ap_
+*.apk
+
+# iOS specific files
+DerivedData/
+xcuserdata/
+*.xcuserstate
+Pods/
+*.hmap
+*.ipa
+*.xcworkspace
+!default.xcworkspace
+!default.xcworkspace/contents.xcworkspacedata
+!default.xcworkspace/contents.xcworkspacedata-e
+*.dSYM.zip
+*.dSYM
+*.bks
+*.xcodeproj
+*.xcworkspace/
+.xcsettings
+
+# Exclude Android and iOS build directories
+/android/
+ios/Pods/
+ios/derivedData/
+ios/build/
+
+# Environment-specific files
+.env
+
+# Local properties (typically for local dev setup)
+local.properties
+
+# Exclude IntelliJ idea, Android Studio and other IDE files
+.vscode/
+
+# Exclude Gradle caches and wrappers
+.gradle/caches/
+.gradle/wrapper/
+gradle/
+gradlew
+gradlew.bat
+gradle.properties
+
+
+# Exclude OS-specific files
+Thumbs.db
+
+# Exclude test reports
+test-results/
+test-report/
